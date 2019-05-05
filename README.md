@@ -1,20 +1,22 @@
-# Godot Notes
+# Godot Notes - Español
 
-Keep your **ideas** and **notes** of your Godot projects!
+Guarde **ideas** y **notas** de sus proyectos Godot!
 
 ![Godot Notes](./capture.png)
 
-## What?
+## ¿Qué es?
 
-With this *Godot engine* plugin, you are able to write ideas and notes for tracking your project status.
-Once this plugin installed, a new dock **Notes** appears on the rightside docks bar with an input textbox.
-The notes are stored per projects, in the plugin folder, to the filename **notes.txt** *(your_project/addons/godot-notes/notes.txt)*.
+Con este plugin *Godot engine*, puedes escribir ideas y notas para seguir el estado de tu proyecto.
 
-## Where?
+Una vez instalado este plugin, un nuevo dock **Notas** aparece en la barra de docks del lado derecho con un cuadro de texto de entrada.
 
-To install this plugin, please, create a folder **addons** at the root of your project and move **godot-notes** folder in it.
-Final result : *your_project/addons/godot-notes*.
+Las notas se almacenan por proyectos, en la carpeta de plugins, en el nombre de archivo **notes.txt** *(Tu_proyecto/addons/godot-notes/notes.txt)*.
 
-## Thanks :)
+## ¿Dónde?
 
-The icons come from [this site](https://icons8.com/).
+Para instalar este plugin, por favor, cree una carpeta llamada **addons** en la raíz de su proyecto y mueva la carpeta **godot-notes** en ella
+Resultado final : *Tu_proyecto/addons/godot-notes*.
+
+## Gracias :)
+
+Los iconos provienen de [este sitio](https://icons8.com/).
