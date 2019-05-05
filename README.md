@@ -12,10 +12,13 @@ Una vez instalado este plugin, un nuevo dock **Notas** aparece en la barra de do
 
 Las notas se almacenan por proyectos, en la carpeta de plugins, en el nombre de archivo **notes.txt** *(Tu_proyecto/addons/godot-notes/notes.txt)*.
 
+
 ## ¿Dónde?
 
 Para instalar este plugin, por favor, cree una carpeta llamada **addons** en la raíz de su proyecto y mueva la carpeta **godot-notes** en ella
+
 Resultado final : *Tu_proyecto/addons/godot-notes*.
+
 
 ## Gracias :)
 
