@@ -16,7 +16,7 @@ func _enter_tree() -> void:
 	dock.get_node("infos_dialog/btn_close").connect("pressed", self, "_btn_infos_close_click")
 	dock.get_node("textEdit").connect("text_changed", self, "_text_change")
 
-	dock.get_node("infos_dialog/version").text = "Notes "+version+" by Roboweb"
+	dock.get_node("infos_dialog/version").text = "Notes "+version+" por Roboweb"
 
 	load_game()
 
@@ -28,7 +28,7 @@ func _btn_save_click() -> void:
 	file.open(savePath, File.WRITE)
 	file.store_string(dock.get_node("textEdit").text)
 	file.close()
-	dock.get_node("hBoxContainer/label").text = "All is ok..."
+	dock.get_node("hBoxContainer/label").text = "Todo está bien...."
 
 func _btn_reload_click() -> void:
 	load_game()
@@ -37,7 +37,7 @@ func load_game() -> void:
 	if file.file_exists(savePath):
 		file.open(savePath, File.READ)
 		dock.get_node("textEdit").text = file.get_as_text()
-		dock.get_node("hBoxContainer/label").text = "All is ok..."
+		dock.get_node("hBoxContainer/label").text = "Todo está bien...."
 
 func _btn_infos_click() -> void:
 	dock.get_node("infos_dialog").popup_centered()
@@ -46,7 +46,7 @@ func _btn_infos_close_click() -> void:
 	dock.get_node("infos_dialog").hide()
 
 func _text_change() -> void:
-	dock.get_node("hBoxContainer/label").text = "Save changes!"
+	dock.get_node("hBoxContainer/label").text = "Guarda los cambios!"
 
 
 
