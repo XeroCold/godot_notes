@@ -10,7 +10,8 @@ Con este plugin *Godot engine*, puedes escribir ideas y notas para seguir el est
 
 Una vez instalado este plugin, un nuevo dock **Notas** aparece en la barra de docks del lado derecho con un cuadro de texto de entrada.
 
-Las notas se almacenan por proyectos, en la carpeta de plugins, en el nombre de archivo **notes.txt** *(Tu_proyecto/addons/godot-notes/notes.txt)*.
+Las notas se almacenan por proyectos, en la carpeta de plugins, en el nombre de archivo **notes.txt**
+*(Tu_proyecto/addons/godot-notes/notes.txt)*.
 
 
 ## ¿Dónde?

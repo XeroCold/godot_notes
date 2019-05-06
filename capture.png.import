@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/save.png-752589b38233bbad3aa5f1dce086acf8.stex"
+path="res://.import/capture.png-47c3d4a19390d7c1c1385f8adf362b59.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/godot-notes/save.png"
-dest_files=[ "res://.import/save.png-752589b38233bbad3aa5f1dce086acf8.stex" ]
+source_file="res://addons/godot-notes/capture.png"
+dest_files=[ "res://.import/capture.png-47c3d4a19390d7c1c1385f8adf362b59.stex" ]
 
 [params]
 
@@ -30,5 +30,5 @@ process/HDR_as_SRGB=false
 process/invert_color=false
 stream=false
 size_limit=0
-detect_3d=false
+detect_3d=true
 svg/scale=1.0

@@ -5,9 +5,8 @@
 
 [sub_resource type="StreamTexture" id=1]
 flags = 4
-load_path = "res://.import/infos.png-a3e62a1370c3eb47e22ac8f7eb66ee8c.stex"
 
-[node name="Notes" type="Control"]
+[node name="Notas" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
 rect_clip_content = true
@@ -20,16 +19,16 @@ margin_bottom = 24.0
 [node name="btn_save" type="ToolButton" parent="hBoxContainer"]
 margin_right = 60.0
 margin_bottom = 24.0
-hint_tooltip = "Save modifications"
-text = "Save"
+hint_tooltip = "Guardar modificaciones"
+text = "Guardar"
 icon = ExtResource( 1 )
 
 [node name="btn_refresh" type="ToolButton" parent="hBoxContainer"]
 margin_left = 64.0
 margin_right = 143.0
 margin_bottom = 24.0
-hint_tooltip = "Refresh/reload previously saved datas"
-text = "Refresh"
+hint_tooltip = "Actualizar/cargar datos previamente guardados"
+text = "Actualizar"
 icon = ExtResource( 2 )
 
 [node name="label" type="Label" parent="hBoxContainer"]
@@ -38,8 +37,8 @@ margin_left = 147.0
 margin_top = 5.0
 margin_right = 210.0
 margin_bottom = 19.0
-hint_tooltip = "Status"
-text = "All is ok..."
+hint_tooltip = "Estado"
+text = "Todo está bien...."
 align = 2
 
 [node name="sep" type="VSeparator" parent="hBoxContainer"]
@@ -50,10 +49,10 @@ margin_bottom = 24.0
 size_flags_horizontal = 2
 
 [node name="btn_infos" type="ToolButton" parent="hBoxContainer"]
-margin_left = 996.0
-margin_right = 1024.0
+margin_left = 468.0
+margin_right = 480.0
 margin_bottom = 24.0
-hint_tooltip = "About"
+hint_tooltip = "Acerca"
 icon = SubResource( 1 )
 
 [node name="textEdit" type="TextEdit" parent="."]
@@ -72,7 +71,7 @@ visible = true
 margin_top = 25.0
 margin_right = 280.0
 margin_bottom = 180.0
-window_title = "Notes"
+window_title = "Notas"
 
 [node name="version" type="Label" parent="infos_dialog"]
 anchor_right = 1.0
@@ -99,5 +98,5 @@ margin_left = 80.0
 margin_top = 106.0
 margin_right = -80.0
 margin_bottom = -13.0
-text = "Close"
+text = "Cerrar"
 
